@@ -5,6 +5,7 @@ Cookbook::Application.routes.draw do
 
   root to: 'recipes#index'
 
+  resources :activites
   resources :users
   resources :sessions
   resources :friendships
